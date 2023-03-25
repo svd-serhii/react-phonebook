@@ -1,0 +1,27 @@
+.menuContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+}
+.userName {
+  color: #3e426b;
+  font-family: inherit;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.userMenuBtn {
+  outline: none;
+  border: 0.5px solid #3e426b;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #3e426b;
+  transition: 250ms ease-in;
+}
+
+.userMenuBtn:hover {
+  background-color: #e84a5f;
+  color: #fff;
+  scale: 1.1;
+}

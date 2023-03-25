@@ -1,0 +1,13 @@
+.LoaderContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.LoaderContainerSmall {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  border: none;
+  outline: none;
+}

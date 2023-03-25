@@ -1,0 +1,19 @@
+.nav {
+}
+
+.authLink {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 400;
+  color: #3e426b;
+  transition: 250ms ease-in;
+}
+.authLink:hover {
+  color: #e84a5f;
+  scale: 1.1;
+}
+
+a.authLink.active {
+  color: #e84a5f;
+}
